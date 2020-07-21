@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+   xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+   xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- configs -->
+	<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"></bean>
+	
+	<!-- controller -->
+   <bean id="IndexController" class="yong.controller.IndexController"></bean>
+   <bean id="MemoWriteController" class="yong.controller.MemoController"></bean>
+   
+   <!-- services -->
+	<bean id="memoDao" class="yong.memo.model.MemoDAOImple"></bean>
+
+   <!-- view -->
+   <bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+   		<property name="prefix">
+   			<value>/WEB-INF/views/</value>
+   		</property>
+   		<property name="suffix" value=".jsp"></property>
+   </bean>
+ 
+</beans>
