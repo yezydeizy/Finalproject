@@ -1,7 +1,2 @@
-# Created by https://www.toptal.com/developers/gitignore/api/maven
-# Edit at https://www.toptal.com/developers/gitignore?templates=maven
 
-### Maven ###
 target/
-
-# End of https://www.toptal.com/developers/gitignore/api/windows,eclipse,java
