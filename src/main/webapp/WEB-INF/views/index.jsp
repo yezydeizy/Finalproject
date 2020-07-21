@@ -37,6 +37,7 @@ body{
 }
 </style>
 <script>
+/**
    function getPosX(targetPos) {
       var currentLeft = 0;
       if (targetPos.offwetParent)
@@ -67,7 +68,7 @@ body{
    function test() {
 	      alert("현재 좌표는 " + event.offsetX + "/" + event.offsetY)
 	   }
-
+*/
 </script>
 </head>
 <body>
