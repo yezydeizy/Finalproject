@@ -65,7 +65,7 @@ $('#zipcode_search').click(function(){
 </div>
 <div>
 	<label>출발지 정보</label>
-	<input type="text" value="">
+	<input type="text" value="우편번호검색 api">
 </div>
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
